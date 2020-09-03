@@ -7,9 +7,25 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    // create variable named mynum and assign it to 50
+    int mynum = 50;
+   cout << mynum << endl;
+    // print some text
+    // insert name
+    string name;
+    cout << "Welcome to cpp\n";
+    cout << "What is your name?\n";
+    cin >> name;
+    cout << "Nice to meet you, " << name << endl;
+    // insert values
+    cout << "Please Enter a value.\n";
+    int firstnumber;
+    int secondnumber;
+    cin >> firstnumber;
+    cout << "Please Enter Another value.\n";
+    cin >> secondnumber;
+    cout << "The sum of two number is: " << firstnumber + secondnumber << endl;
     return 0;
 }
